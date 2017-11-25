@@ -8,6 +8,7 @@ language: 'en-uk'
 baseurl: ""
 
 # Website info
+username: Haewon
 title: Parking_Blog
 description: My Dev Blog
 cover: assets/images/haewon-cover.jpg
