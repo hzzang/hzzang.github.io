@@ -1,13 +1,14 @@
-ghost:
-  username: ghost
-  name: Ghost
-  url_full: http://myJekyll.github.io/jasper2/
-  url: myJekyll.github.io/jasper2
+Haewon:
+  username: haewon
+  name: Haewon
+  location: Seoul, Korea
+  url_full: https://github.com/hzzang/hzzang.github.io
+  url: github.com/hzzang/hzzang.github.io
   bio: The professional publishing platform
-  picture: assets/images/ghost.png
-  facebook: ghost
-  twitter: tryghost
-  cover: False
+  picture: assets/images/haewon.jpg
+  facebook: parkinghw
+  twitter: parking_hw
+  cover: assets/images/haewon-cover.jpg
 hannah:
   username: hannah
   name: Hannah Wolfe
