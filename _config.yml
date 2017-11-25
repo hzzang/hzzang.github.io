@@ -8,13 +8,13 @@ language: 'en-uk'
 baseurl: ""
 
 # Website info
-title: Ghost
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-production_url: https://myJekyll.github.io/jasper2/
+title: Parking_Blog
+description: My Dev Blog
+cover: assets/images/haewon-cover.jpg
+logo: assets/images/haewon.jpg
+logo_dark: assets/images/haewon.jpg
+favicon: assets/images/haewon.jpg
+production_url: https://hzzang.github.io/
 source_url: https://github.com/myJekyll/jasper2/
 
 # Social info
@@ -22,20 +22,24 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: haewon # replace by your username
+facebook: haewon # replace by your username
 
 # Disqus
 disqus: False
-disqus_name: myjekyll # replace by your username
+disqus_name: haewon # replace by your username
 
 # Google Analytics
 google_analytics: UA-69281367-1 # replace by your GA id
 
 # Permalinks
-permalink: /:title
+permalink: /:categories/:year/:month/:day/:title
+#permalink: /:title
 # permalink: /author/:author
 # permalink: /tag/:tag
+
+timezone: Asia/Seoul
+encoding: utf-8
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
